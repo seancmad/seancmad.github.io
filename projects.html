@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!--The head contains metadata about our page and it's the place where we can load css files (for -->
-<!--styling) and javascript files.-->
+    
 <head>
 
     <meta name="author" content="Stephan Risi">
     <meta charset="utf-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
 
-    <!-- Load JQuery and Bootstrap. They are javascript library that handle the layouting for us.-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -18,44 +14,31 @@
     <!--Set the title for the page-->
     <title>Sean Madkins Page</title>
 
-    <!-- The nav bar remains the same for every page, so by defining it in only one file, we only
-     need to edit it in one place when we make changes to it. -->
     <script> $(function(){$("#header").load("header.html");});</script>
 
-    <!-- Import the css file, which defines how our website looks -->
+
     <link href="css/main.css" rel="stylesheet">
 
 </head>
 
 
-<!--We define the elements that we actually want to display in the body element-->
+
 <body>
 
-    <!--This element is a placeholder for the header with the navbar, which we load above-->
+ 
     <div id="header"></div>
 
     <div class="column">
 
-        <!--h1 stands for heading 1, the largest kind of header. You can add smaller headings with h2, h3 etc.-->
+     
         <h1 id="setup">IRobot Create 3</h1>
 
-        <!--p stands for paragraph, the main text building blocks we're working with.-->
+
         <p>Welcome!</p>
 
-            <!--Here's an image. Each image has a source (src).-->
-            <!--The source can be "relative" or "absolute."-->
-            <!--"Absolute" means that you provide a complete url, for example  -->
-            <!--"Relative" means that we provide the path relative to where the current file is. -->
-            <!--Below you see a relative path "images/setup_account_creation.png". -->
-            <!--This tells the browser to load the "setup_account_creation.png" file from the -->
-            <!--"images" folder. If you go to your repository, you can see that there is indeed -->
-            <!--a "setup_account_creation.png" file there.-->
-            <img src="images/tutorials/setup_account_creation.png" alt="Github Account Creation">
+    
         </p>
-        <p>If you’re a student, you can sign up for the  <a href="https://education.github.com/pack">student developer pack</a>,
-        which gives you access to a lot of different tools. The free account is also perfectly fine, though.</p>
-        <p><img src="images/tutorials/setup_account_selection.png"
-                alt="Github Account Selection"></p>
+     
        
 
     </div>
